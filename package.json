@@ -1,0 +1,21 @@
+{
+  "name": "belajar-node-npm1",
+  "version": "1.0.0",
+  "description": "belajar node.js NPM",
+  "main": "index.js",
+  "homepage": "https://www.programmerzamannow.com/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ragastra07/belajar-node-npm1.git"
+  },
+  "keywords": [
+    "belajar",
+    "node",
+    "npm"
+  ],
+  "author": "Ragastra07",
+  "license": "ISC"
+}
