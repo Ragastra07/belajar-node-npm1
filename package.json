@@ -5,6 +5,10 @@
   "main": "index.js",
   "homepage": "https://www.programmerzamannow.com/",
   "scripts": {
+    "prestart": "echo before start",
+    "start": "node index.js",
+    "poststart": "echo after start",
+    "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
