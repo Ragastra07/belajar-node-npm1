@@ -2,7 +2,10 @@
   "name": "belajar-node-npm1",
   "version": "1.0.0",
   "description": "belajar node.js NPM",
-  "main": "index.js",
+  "exports" : {
+    "." : "./index.js",
+    "./write" : "./write.js"
+  },
   "homepage": "https://www.programmerzamannow.com/",
   "scripts": {
     "prestart": "echo before start",
@@ -22,5 +25,8 @@
   ],
   "author": "Ragastra07",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
 }
