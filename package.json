@@ -17,5 +17,6 @@
     "npm"
   ],
   "author": "Ragastra07",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
